@@ -1,3 +1,5 @@
+require_relative 'stripe_keys'
+
 # Question 6, 1 of 2: Declaring the coupon
 coupon = { code: 'SUMMERSALE2016', discount_in_cents: 50}
 
@@ -60,4 +62,4 @@ card[:cvc] = gets.chomp
 
 # TODO: Actually charge the customer!
 
-puts "Your card has been charged."
+puts "Your... card has been charged."
